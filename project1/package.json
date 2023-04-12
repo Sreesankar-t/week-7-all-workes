@@ -1,25 +1,26 @@
 {
-  "name": "login-page-backend",
+  "name": "project1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "devstart": "nodemon server.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
     "express-flash": "^0.0.2",
     "express-session": "^1.17.3",
+    "exprss": "^0.0.1-security",
+    "method": "^2.0.0",
     "method-override": "^3.0.0",
+    "nocache": "^3.0.4",
+    "nodemon": "^2.0.22",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0"
-  },
-  "devDependencies": {
-    "dotenv": "^16.0.3",
-    "nodemon": "^2.0.22"
   }
 }
